@@ -5,6 +5,8 @@
  */
 package paquete2;
 
+import static paquete1.Mensaje.obtenerFrase;
+
 
 /**
  *
@@ -17,7 +19,7 @@ public class Demo {
      */
     public static void main(String[] args) {
         
-        System.out.printf();
+        System.out.printf(obtenerFrase());
     }
     
 }
